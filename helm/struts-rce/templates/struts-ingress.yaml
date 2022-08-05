@@ -12,7 +12,7 @@ spec:
       paths:
       - backend:
           service:
-            name: {{ .Release.Name }}-frontend
+            name: {{ .Release.Name }}-demo
             port:
               number: 8080
         path: /
