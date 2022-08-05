@@ -9,6 +9,10 @@ Multiple deployment options :
 - Downstream cluster managed by Rancher: deploy NeuVector from the Rancher Apps and Marketplace
 - Other Kubernetes: follow the official documentation (https://open-docs.neuvector.com/deploying)
 
+## Admission Control
+
+Source: https://open-docs.neuvector.com/policy/admission
+
 ## Attacks
 
 ### Struts
