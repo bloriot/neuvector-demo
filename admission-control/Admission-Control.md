@@ -1,5 +1,9 @@
 # Admission Control
 
+The Admission Control feature is disabled by default. Please go to Policy -> Admission Control page to enable it in the NeuVector console.
+
+All admission control events for allowed and denied events can be found in the Notifications -> Security Risks menu.
+
 ## Run as root
 
 Requirements:

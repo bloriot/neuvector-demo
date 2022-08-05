@@ -1,7 +1,8 @@
 # neuvector-demo
+
 Applications and procedures to demo NeuVector capabilities
 
-## Deploy
+## Deploy NeuVector
 
 Multiple deployment options :
 - Starting from scratch: use Rancher quickstart for NeuVector (https://github.com/rancher/quickstart/tree/master/neuvector/aws)
