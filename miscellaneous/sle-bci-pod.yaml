@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sle-bci-test
+  namespace: neuvector-demo
+spec:
+  containers:
+  - command:
+    - sleep
+    - infinity
+    image: registry.suse.com/bci/bci-base:latest
+    imagePullPolicy: IfNotPresent
+    securityContext:
+      privileged: true
+    name: sle-bci-test
