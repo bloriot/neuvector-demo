@@ -5,7 +5,7 @@
 Create `neuvector-demo-1` namespace
 
 ```bash
-kubectl apply -f 01-ns-neuvector-demo-1
+kubectl apply -f 01-ns-neuvector-demo-1.yaml
 namespace/neuvector-demo-1 created
 ```
 
