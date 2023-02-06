@@ -1,0 +1,56 @@
+apiVersion: v1
+items:
+- apiVersion: neuvector.com/v1
+  kind: NvClusterSecurityRule
+  metadata:
+    name: containers
+    namespace: ""
+  spec:
+    dlp:
+      settings: []
+      status: true
+    egress: []
+    file: []
+    ingress: []
+    process: []
+    target:
+      policymode: N/A
+      selector:
+        comment: ""
+        criteria:
+        - key: container
+          op: =
+          value: '*'
+        name: containers
+        original_name: ""
+    waf:
+      settings: []
+      status: true
+- apiVersion: neuvector.com/v1
+  kind: NvClusterSecurityRule
+  metadata:
+    name: ns-neuvector-demo-1
+    namespace: ""
+  spec:
+    dlp:
+      settings: []
+      status: true
+    egress: []
+    file: []
+    ingress: []
+    process: []
+    target:
+      policymode: N/A
+      selector:
+        comment: ""
+        criteria:
+        - key: namespace
+          op: =
+          value: neuvector-demo-1
+        name: ns-neuvector-demo-1
+        original_name: ""
+    waf:
+      settings: []
+      status: true
+kind: List
+metadata: null

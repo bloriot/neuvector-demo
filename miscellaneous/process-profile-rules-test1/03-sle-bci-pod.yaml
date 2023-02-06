@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: sle-bci-test
-  namespace: neuvector-demo
+  namespace: neuvector-demo-1
 spec:
   containers:
   - command:
