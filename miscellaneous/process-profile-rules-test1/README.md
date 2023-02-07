@@ -34,7 +34,7 @@ sh-4.4# exit
 
 Command `ls` is working as expected.
 
-Now let's remove `ls`from the allowed processes
+Now let's remove `ls` from the allowed processes
 
 ```bash
 kubectl apply -f 04-nv.sle-bci.neuvector-demo-1.no-ls.yaml
